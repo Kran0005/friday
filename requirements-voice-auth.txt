@@ -1,0 +1,5 @@
+# Optional voice-authentication package.
+# On Windows/Python 3.13, its webrtcvad dependency needs Microsoft C++ Build Tools.
+-r requirements.txt
+setuptools<81
+resemblyzer

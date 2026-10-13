@@ -1,0 +1,29 @@
+# Python and tooling
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.venv*/
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+/archive/
+unnamed.webp
+
+# Local secrets and account credentials
+.env
+.env.*
+!.env.example
+/data/private/
+
+# Local runtime data and recordings
+/data/runtime/
+/data/voiceprints/
+/data/state/
+/data/music/
+
+# Downloaded installers and platform binaries
+python-*.exe
+nircmd.exe
+nircmdc.exe
+/assets/wakewords/*.ppn

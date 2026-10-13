@@ -1,0 +1,36 @@
+# === LiveKit Agent Framework ===
+livekit-agents>=1.1.4
+
+# === LiveKit Plugins ===
+livekit-plugins-openai
+livekit-plugins-silero
+livekit-plugins-google
+livekit-plugins-noise-cancellation
+
+# === Wake word, audio, and voice authentication ===
+openwakeword>=0.6,<0.7
+PyAudio
+SpeechRecognition
+pyttsx3
+sounddevice
+numpy
+scipy
+matplotlib
+pycaw
+
+# === Google Calendar API ===
+google-api-python-client
+google-auth-oauthlib
+tzdata
+python-dateutil
+pypdf
+
+# === AI Memory & Search Tools ===
+mem0ai
+ddgs
+langchain_community
+
+# === Utility Libraries ===
+requests
+python-dotenv
+customtkinter
